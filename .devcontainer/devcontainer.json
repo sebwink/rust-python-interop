@@ -1,0 +1,21 @@
+{
+    "build": { "dockerfile": "Dockerfile" },
+    "customizations": {
+      // Configure properties specific to VS Code.
+      "vscode": {
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+          "ms-python.python",
+          "njqdev.vscode-python-typehint",
+          "njpwerner.autodocstring",
+          "littlefoxteam.vscode-python-test-adapter",
+          "bungcip.better-toml",
+          "rust-lang.rust-analyzer",
+          "dustypomerleau.rust-syntax",
+          "jscearcy.rust-doc-viewer",
+          "swellaby.vscode-rust-test-adapter",
+          "serayuzgur.crates"
+        ]
+      }
+    }
+  }
